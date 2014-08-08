@@ -48,7 +48,7 @@ typedef NS_ENUM(NSInteger, NMSSHChannelType)  {
 
  You can use the `delegate` to receive asynchronous read from a shell.
  */
-@property (nonatomic, weak) id<NMSSHChannelDelegate> delegate;
+@property (nonatomic, assign) id<NMSSHChannelDelegate> delegate;
 
 /// ----------------------------------------------------------------------------
 /// @name Initializer

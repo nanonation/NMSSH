@@ -52,7 +52,7 @@ typedef NS_ENUM(NSInteger, NMSSHKnownHostStatus) {
 
  The `delegate` is sent messages when content is loading.
  */
-@property (nonatomic, weak) id<NMSSHSessionDelegate> delegate;
+@property (nonatomic, assign) id<NMSSHSessionDelegate> delegate;
 
 /**
  The synthesized config for the current host, produced by combining values from
