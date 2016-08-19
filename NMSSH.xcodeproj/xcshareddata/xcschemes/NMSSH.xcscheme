@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E4E96D83158E10FD002E6E0A"
                BuildableName = "NMSSH.framework"
-               BlueprintName = "NMSSH"
+               BlueprintName = "Framework"
                ReferencedContainer = "container:NMSSH.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -57,7 +57,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E4E96D83158E10FD002E6E0A"
             BuildableName = "NMSSH.framework"
-            BlueprintName = "NMSSH"
+            BlueprintName = "Framework"
             ReferencedContainer = "container:NMSSH.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

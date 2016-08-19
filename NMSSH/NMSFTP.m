@@ -91,7 +91,7 @@
 }
 
 - (BOOL)directoryExistsAtPath:(NSString *)path {
-    LIBSSH2_SFTP_HANDLE *handle = [self openFileAtPath:path flags:LIBSSH2_FXF_READ mode:0];
+    LIBSSH2_SFTP_HANDLE *handle = [self openDirectoryAtPath:path];
 
     if (!handle) {
         return NO;
